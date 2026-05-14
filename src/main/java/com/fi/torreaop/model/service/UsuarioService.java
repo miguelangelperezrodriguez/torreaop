@@ -10,7 +10,7 @@ public class UsuarioService {
         try {
             XmlLoader loader = new XmlLoader();
             Usuario user = loader.cargarUsuario("src/main/resources/usuario.xml");
-            System.out.println(user.getNombre());
+            System.out.println(user.getNaturaleza1());
         } catch (Exception e) {
             e.printStackTrace();
         }

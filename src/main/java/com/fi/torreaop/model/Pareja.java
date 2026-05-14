@@ -12,13 +12,13 @@ public class Pareja {
     // Constructor
     public Pareja() {}
 
-    @XmlElement
+    @XmlElement(name="hombre")
     public Integer getHombre() {return this.hombre;}
     public void setHombre(Integer hombre) { this.hombre=hombre; }
 
-    @XmlElement
+    @XmlElement(name="mujer")
     public Integer getMujer() {return this.mujer;}
-    public void setMujer(Integer hombre) { this.hombre=mujer; }
+    public void setMujer(Integer mujer) { this.mujer=mujer; }
 
 
 }
