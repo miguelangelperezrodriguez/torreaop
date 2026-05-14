@@ -8,6 +8,12 @@ public class TorreaopApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TorreaopApplication.class, args);
+
+		System.out.println("Inicio de Servidor");
+
+
+
+
 	}
 
 }

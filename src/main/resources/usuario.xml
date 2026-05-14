@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<usuario>
+    <parejas>
+        <pareja>
+            <hombre>3</hombre>
+            <mujer>1</mujer>
+        </pareja>
+        <pareja>
+            <hombre>7</hombre>
+            <mujer>10</mujer>
+        </pareja>
+    </parejas>
+    <naturaleza1>8</naturaleza1>
+    <naturaleza2>9</naturaleza2>
+    <naturaleza3>10</naturaleza3>
+    <valores>
+        <valor>1</valor>
+        <valor>2</valor>
+    </valores>
+</usuario>
