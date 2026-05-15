@@ -13,4 +13,8 @@
             <mujer>10</mujer>
         </pareja>
     </parejas>
+    <valores>
+        <valor>1</valor>
+        <valor>2</valor>
+    </valores>
 </usuario>

@@ -13,7 +13,8 @@ import java.util.List;
     private Integer naturaleza1;
     private Integer naturaleza2;
     private Integer naturaleza3;
-    private List<Integer> valores;
+    private List<Integer> listaValores;
+
 
     @XmlElement
     public Integer getNaturaleza1() {
@@ -42,9 +43,9 @@ import java.util.List;
     public List<Pareja> getListaParejas() { return listaParejas;}
     public void setListaParejas(List<Pareja> listaParejas) { this.listaParejas = listaParejas; }
 
-    /*@XmlElementWrapper(name="valores")
+    @XmlElementWrapper(name="valores")
     @XmlElement(name="valor")
-    public List<Integer> getListaValores() { return valores;}
-    */
+    public List<Integer> getListaValores() { return listaValores;}
+    public void setListaValores(List<Integer> listaValores) { this.listaValores = listaValores; }
 
-    }
+}
